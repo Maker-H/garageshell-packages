@@ -1,0 +1,13 @@
+Architectures: all amd64 arm64
+Date: Fri, 23 Oct 2026 04:42:33 +0000
+Label: GarageShell
+Origin: GarageShell
+Suite: stable
+MD5Sum:
+ d0e56cabf072bc9710d78fc1744887f9              596 Packages
+SHA1:
+ 8fe968ff20ea630a9621415cd3c2f63d41e4c987              596 Packages
+SHA256:
+ e7b0e7ce929ea73e2d3fe15b562574684bd9cd2cc44282204a4ab1112c10713f              596 Packages
+SHA512:
+ 79fee57efc854bdc372b15c85ede16dadc67097f6fbfc4d8429067d9545be4cdd2a83ee8134c2db94bd14bc048497b710c502b00cc9b3b0deef802dabd9b64fa              596 Packages

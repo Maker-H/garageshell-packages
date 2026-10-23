@@ -1,0 +1,16 @@
+Package: gshell
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: shells
+Maintainer: GarageShell maintainers
+Depends: python3 (>= 3.9), bash
+Filename: ./gshell_0.1.0_all.deb
+Size: 10448
+MD5sum: 363aa6d968ef02b8b77b8843722204c8
+SHA1: 02e37d079a4a8c7b25393b701a97bf394438c0a7
+SHA256: 09a5dd12a64e26817f8e6250297d0a0c42224058b6c1f04c60dd0dcd09e02726
+SHA512: 15ba9e1cb32eaee79f00603ad54e4fe3df23a98c3870226afd9984788cf9d03d766c19df8472482b6dc1842548e8d3fb710f338c4d418e24228763760c917d50
+Description: GarageShell shared PTY service
+ Shared Bash and k9s terminal for users and AI clients.
+

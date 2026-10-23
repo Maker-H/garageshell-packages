@@ -1,0 +1,9 @@
+<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>GarageShell 패키지</title><style>body{max-width:900px;margin:48px auto;padding:0 24px;font:16px/1.7 system-ui;color:#17232e}pre{background:#f3f5f7;padding:20px;overflow:auto;border-radius:10px}code{font-family:monospace}a{color:#245aa6}</style><h1>GarageShell 원격 설치</h1><p>최초 한 번 저장소를 등록하면 OS 패키지 관리자로 설치·업데이트할 수 있습니다.</p><h2>Ubuntu / WSL</h2><pre>sudo install -d -m 755 /etc/apt/keyrings
+curl -fsSL https://maker-h.github.io/garageshell-packages/garageshell.asc | sudo tee /etc/apt/keyrings/garageshell.asc &gt; /dev/null
+curl -fsSL https://maker-h.github.io/garageshell-packages/garageshell.sources | sudo tee /etc/apt/sources.list.d/garageshell.sources &gt; /dev/null
+sudo apt update
+sudo apt install gshell</pre><h2>Oracle Linux 7 x86_64</h2><pre>sudo curl -fsSL https://maker-h.github.io/garageshell-packages/garageshell.repo -o /etc/yum.repos.d/garageshell.repo
+sudo yum install gshell</pre><h2>업데이트</h2><pre>sudo apt update
+sudo apt install --only-upgrade gshell
+# Oracle Linux
+sudo yum update gshell</pre><p>실행 중인 셸과 ~/.gshellrc는 유지합니다. 서비스 재시작은 작업이 끝난 뒤 직접 진행하세요.</p><h2>공개 서명 키 지문</h2><pre>889C8A79CC00FACB48F8D40BEFC4FAD4A91B3BBE</pre><a href="README.md">설정·버전 확인 안내</a></html>

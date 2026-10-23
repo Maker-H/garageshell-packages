@@ -1,0 +1,4 @@
+Types: deb
+URIs: https://maker-h.github.io/garageshell-packages/apt
+Suites: ./
+Signed-By: /etc/apt/keyrings/garageshell.asc
