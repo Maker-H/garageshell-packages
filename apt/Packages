@@ -14,3 +14,19 @@ SHA512: 15ba9e1cb32eaee79f00603ad54e4fe3df23a98c3870226afd9984788cf9d03d766c19df
 Description: GarageShell shared PTY service
  Shared Bash and k9s terminal for users and AI clients.
 
+Package: gshell
+Architecture: all
+Version: 0.1.1
+Priority: optional
+Section: shells
+Maintainer: GarageShell maintainers
+Depends: python3 (>= 3.9), bash
+Filename: ./gshell_0.1.1_all.deb
+Size: 10836
+MD5sum: d9ba8e72edb790f4362c84757b62dec6
+SHA1: c23eb60128da6f387def8357255bd9f557d96959
+SHA256: 67ff7209f0f1af1828f0c37cded3e5afd721e492e5cd4c005e9609310e83ad4a
+SHA512: 55e067cd2d7a57da4a7a2eafd251854371d7d64d1737fd6dba4e08cb9aea8bd847100beeb469e994b24e9cb1210c4649623e1fa2b1340a8307d907689406e016
+Description: GarageShell shared PTY service
+ Shared Bash and k9s terminal for users and AI clients.
+

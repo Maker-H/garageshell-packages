@@ -2,29 +2,29 @@
 Hash: SHA512
 
 Architectures: all amd64 arm64
-Date: Fri, 23 Oct 2026 04:42:33 +0000
+Date: Fri, 23 Oct 2026 04:48:00 +0000
 Label: GarageShell
 Origin: GarageShell
 Suite: stable
 MD5Sum:
- d0e56cabf072bc9710d78fc1744887f9              596 Packages
+ b4a30d4b06e1f84f37b2b5b6139a87f5             1192 Packages
 SHA1:
- 8fe968ff20ea630a9621415cd3c2f63d41e4c987              596 Packages
+ 3dd36f56af6b07b303e5792c27e6b0eebc7b81fd             1192 Packages
 SHA256:
- e7b0e7ce929ea73e2d3fe15b562574684bd9cd2cc44282204a4ab1112c10713f              596 Packages
+ 4e1f567fe3a3d7aee93489eeb469648b431ec71aa26e332ca0c9a796f838d03b             1192 Packages
 SHA512:
- 79fee57efc854bdc372b15c85ede16dadc67097f6fbfc4d8429067d9545be4cdd2a83ee8134c2db94bd14bc048497b710c502b00cc9b3b0deef802dabd9b64fa              596 Packages
+ 94d2f22a05a478c9e3f901500bce939e798259528c535858450c923b72f914fc6ec04faba6ab3d78b474c8eeffdf0309043ee0a00e92c811700d463bb81dc9f7             1192 Packages
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEiJyKecwA+stI+NQL78T61KkbO74FAmra5boACgkQ78T61Kkb
-O75I2Av+Js+B6qXPQZLN31vLcoDpYW+y3HkO55IKkR1SzYfHPwwVhmeWa6/j8Gz7
-ZG7o9fxg8j1ag+GsT0mn1dv3oFwp0ofZtcm/cFtthHgnmmUCbdeZVk3OUYy+PWsW
-xBSKSij2ZWOImX3AN/ZeJAJ52hah5Xx7geZj+NdXCmooLTZs8N66kuP9+BVKDShw
-1fz2uBaCvwkPYJZQ/mWckarbzudrDExa9aa+Hmee3M/bXyzL7GhEubimppQE35mq
-Q1mxSAl294USKnwIK9KSxkqlL1GqrgEdkZZR5NRtXc+XJeE774M/9g8koFKRI8zN
-rCFwR1yht4TR2IgAKnm4WKXADzCqzYUTZC43fOKaCU/J4yrflCa64Goy224jC/Jx
-i5Fn/5vy7bWwzF0rIdpLMY18CMHTXi2/XwbRAesooQSVGFIaweHf/B7Fkw+wxHaN
-YYY9WYWAfzBrQzScJ6Nw8sXaow8Ivk9Lki32fZZsuh+fUqWj2a5SxJxBpwwZvqRR
-9C+/udvB
-=KJ2o
+iQGzBAEBCgAdFiEEiJyKecwA+stI+NQL78T61KkbO74FAmra5wAACgkQ78T61Kkb
+O75ubwv8Cvpl0KRrzx00xa8ia7DeCOtJpK0IdzAX+VVebDPfHLaWC3cqbZCypdth
+ZOb25zxFPbhqFSOzbmIOMs1cVpkznS8rGW1uu8lDZ7tkiOAU2avpZWRKzY+Jg2Tm
+b8/V8RDDoJuTfMQwfG4NT7Js++J5SAGUaLzqjpVNrvDQmoW6lBJEW02Qhcy18TR9
+a5uRy/FnWWtpw8E0lU+m0wOFsVUsFSSAsdCgWwPAJbHOhxz6pxLhn5qMVny2HhlE
+FpZAN9XFmm/KjoQ+CXYvR+tvBqmo6rBWbI87R/BkYu29Cuu0m4LSBWuhheVECCEw
+39YbX3vim9KNa5Pfu8H4julxv1KD0v8ti3SfgYaiE5Eta2yCc3mPr+ntW293OUbu
+fiXrwCZv1DBbIpXqVedSYK0YA/8U6n7I7xR9Y2I9oeFKU5X4SQjI7lTL1zGWF8OC
+vj3Dq12DXqN2S7KqVhnYm1K6TCok62xbzATHfTq8ZvhYjlr104qyf4+qRquoKlw5
+kceRZES0
+=lKuu
 -----END PGP SIGNATURE-----
