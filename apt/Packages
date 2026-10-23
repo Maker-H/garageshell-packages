@@ -38,11 +38,11 @@ Section: shells
 Maintainer: GarageShell maintainers
 Depends: python3 (>= 3.9), bash, libc6 (>= 2.34), libevent-core-2.1-7 | libevent-core-2.1-7t64, libtinfo6
 Filename: ./gshell_0.2.0_amd64.deb
-Size: 590482
-MD5sum: aa5f053320e5927f63f5bc2cffffa7c6
-SHA1: 4c7943c3ccee4057ffdd31da861de71fe532eb1b
-SHA256: 6747f6841427f674dce7658083273f073153c438fb4d12db2c9ae742b997c8be
-SHA512: 1e222313655cfa139737f663bafdb49a8fbc0ffc698ab7f6dec08801a4cf50b7f8420618d80d35c20b9006a6b1125d314826c2c5cfc971b496adf231bf57a609
+Size: 590936
+MD5sum: aecc7ec25211298411d865830f2bdae0
+SHA1: 8844fa6a1a9396ab2363495453d09a94567dcbe2
+SHA256: 04fbb5a889bc510e65e9cbfb8c1f0b288ba259336341d52767f6251ded795c0b
+SHA512: 639c07aa134a5f5bc4818a3d06c1741633e5e8a310b976bdcfbce482bd11984e0d4ccb70dda0b938a7c95f1db1d02c89b1586daae066307b0c09d2e0b44a8e46
 Description: GarageShell shared PTY service
  Shared Bash and k9s terminal for users and AI clients.
 
