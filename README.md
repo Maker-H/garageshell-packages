@@ -1,5 +1,17 @@
 # GarageShell 패키지 저장소
 
+최신 버전: **0.2.0**. Model GShell의 C 터미널 엔진과 Infra GShell의 서버 작업 서비스를 포함합니다.
+
+## 한 줄 설치·업데이트
+
+대상 서버에서 실행합니다. Ubuntu 22.04+ / Debian 12+ / Oracle Linux 7+, x86_64를 지원합니다.
+
+```sh
+curl -fsSL https://maker-h.github.io/garageshell-packages/install.sh | sh
+```
+
+공개 서명 키 지문을 확인한 뒤 서명된 저장소에서 최신 패키지를 설치합니다. 실행 중인 세션은 재시작하지 않습니다.
+
 Ubuntu/WSL용 DEB와 Oracle Linux 7 x86_64용 RPM을 제공합니다. 이 저장소에는 배포 파일과 공개 서명 키만 저장합니다.
 
 ## Ubuntu / WSL
