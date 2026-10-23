@@ -15,14 +15,14 @@ root() {
 case "$ID" in
     ubuntu|debian) manager=apt ;;
     ol) manager=yum ;;
-    *) fail '지원 환경: Ubuntu 22.04 이상, Debian 12 이상, Oracle Linux 7 이상(x86_64).' ;;
+    *) fail '지원 환경: Ubuntu 22.04 이상, Debian 12 이상, Oracle Linux 7(x86_64).' ;;
 esac
 major=${VERSION_ID%%.*}
 case "$major" in ''|*[!0-9]*) fail '배포판 버전을 확인할 수 없습니다.' ;; esac
 case "$ID" in
     ubuntu) [ "$major" -ge 22 ] || fail 'Ubuntu 22.04 이상이 필요합니다.' ;;
     debian) [ "$major" -ge 12 ] || fail 'Debian 12 이상이 필요합니다.' ;;
-    ol) [ "$major" -ge 7 ] || fail 'Oracle Linux 7 이상이 필요합니다.' ;;
+    ol) [ "$major" -eq 7 ] || fail 'Oracle Linux 7이 필요합니다.' ;;
 esac
 if [ "$(id -u)" -ne 0 ]; then
     command -v sudo >/dev/null || fail 'sudo가 필요합니다. 또는 root로 실행해 주세요.'

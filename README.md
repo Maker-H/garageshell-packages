@@ -4,7 +4,7 @@
 
 ## 한 줄 설치·업데이트
 
-대상 서버에서 실행합니다. Ubuntu 22.04+ / Debian 12+ / Oracle Linux 7+, x86_64를 지원합니다.
+대상 서버에서 실행합니다. Ubuntu 22.04+ / Debian 12+ / Oracle Linux 7, x86_64를 지원합니다.
 
 ```sh
 curl -fsSL https://maker-h.github.io/garageshell-packages/install.sh | sh
